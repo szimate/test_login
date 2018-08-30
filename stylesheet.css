@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 98.5%;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    display: block;
+    width: 96%;
+    background: orange;
+    bottom: 0;
+}
+
+footer p {
+    font-family: "Times New Roman", sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: gray;
+}
+.link {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 15%;
+    padding-bottom: 5%;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
+.btn {
+    margin-top: 3%;
+    height: 50px;
+    border-radius: 20%;
+    background: orange;
+}
+form, .title, footer, .error {
+    margin-left: 2%;
+}
+table {
+    margin-left: 3%;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+table td, table th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: orange;}
+
+table tr:hover {background-color: gray;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+}
+.error {
+    color: red;
+}
